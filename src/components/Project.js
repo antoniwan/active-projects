@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Link from "gatsby-link";
 
 const Project = props => {
   return (
@@ -13,6 +14,7 @@ const Project = props => {
         </li>
         <li>Francisco Primo</li>
       </ol>
+      <Link to={props.slug}>Open Project</Link>
     </div>
   );
 };

@@ -13,14 +13,15 @@ const IndexPage = ({ data }) => {
     return {
       id: node.id,
       title: node.frontmatter.title,
-      date: node.frontmatter.date
+      date: node.frontmatter.date,
+      slug: node.fields.slug
     };
   });
 
   return (
     <StyledIndex>
       <h1>Active Proyects ({data.allMarkdownRemark.totalCount})</h1>
-      {projects.map(project => <Project title={project.title} />)}
+      {projects.map(project => <Project {...project} />)}
     </StyledIndex>
   );
 };
@@ -32,12 +33,16 @@ export const query = graphql`
       totalCount
       edges {
         node {
-          id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            status
+            clientName
+            date
+            dueDate
           }
-          excerpt
+          fields {
+            slug
+          }
         }
       }
     }
