@@ -5,14 +5,14 @@ import Helmet from "react-helmet";
 import styled from "styled-components";
 import Theme from "../components/Theme";
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, data }) => (
   <div>
     <Helmet
       title="Active Projects"
       meta={[
         {
           name: "description",
-          content: "This page has a list of your active projects."
+          content: "These are the things you should be working on."
         }
       ]}
     />
@@ -27,3 +27,13 @@ TemplateWrapper.propTypes = {
 };
 
 export default TemplateWrapper;
+
+export const query = graphql`
+  query LayoutQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;
