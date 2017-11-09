@@ -6,6 +6,14 @@ import PropTypes from "prop-types";
 const StyledProjectPreview = styled.div`
   border: 1px solid black;
   padding: 1rem;
+
+  .projectMetadata {
+  }
+
+  h2,
+  h3 {
+    margin: 0;
+  }
 `;
 
 const ProjectPreview = props => {
@@ -20,19 +28,12 @@ const ProjectPreview = props => {
           </h3>
         )}
 
-      <div className="projectTitle">
-        <h2>{props.title}</h2>
+      <div className="projectMetadata">
+        <h2>
+          <Link to={props.slug}>{props.title}</Link>
+        </h2>
         <h3>{props.clientName}</h3>
       </div>
-
-      <ol>
-        {props.staff}
-        <li>
-          <strong>Carlos Córdoba</strong>
-        </li>
-        <li>Francisco Primo</li>
-      </ol>
-      <Link to={props.slug}>Open Project</Link>
     </StyledProjectPreview>
   );
 };
