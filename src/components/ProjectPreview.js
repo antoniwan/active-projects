@@ -19,20 +19,11 @@ const StyledProjectPreview = styled.div`
 const ProjectPreview = props => {
   return (
     <StyledProjectPreview>
-      {props.projectNumber &&
-        props.workflowUrl && (
-          <h3>
-            <a href={`/`} target="_blank" rel="noopener noreferrer">
-              props.workbook.id
-            </a>
-          </h3>
-        )}
-
       <div className="projectMetadata">
         <h2>
           <Link to={props.slug}>{props.title}</Link>
         </h2>
-        <h3>{props.clientName}</h3>
+        <p>{props.clientName}</p>
       </div>
     </StyledProjectPreview>
   );
