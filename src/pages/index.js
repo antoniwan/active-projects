@@ -18,7 +18,8 @@ const IndexPage = ({ data }) => {
       dueDate: node.frontmatter.dueDate,
       workflowUrl: node.frontmatter.workflowUrl,
       staff: node.frontmatter.staff,
-      projectNumber: node.frontmatter.projectNumber
+      projectNumber: node.frontmatter.projectNumber,
+      status: node.frontmatter.status
     };
   });
 
