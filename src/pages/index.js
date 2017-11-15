@@ -6,23 +6,32 @@ import ProjectPreview from "../components/ProjectPreview";
 const StyledIndex = styled.div``;
 
 const IndexPage = ({ data }) => {
-  const projects = data.allMarkdownRemark.edges.map(({ node }) => {
-    return {
-      id: node.id,
-      title: node.frontmatter.title,
-      slug: node.fields.slug,
-      clientName: node.frontmatter.clientName,
-      dueDate: node.frontmatter.dueDate,
-      status: node.frontmatter.status
-    };
-  });
+  let projects = [];
+  let totalCount = 0;
+  const markdownFiles = data.allMarkdownRemark;
+
+  if (markdownFiles) {
+    totalCount = markdownFiles.totalCount;
+    projects = markdownFiles.edges.map(({ node }) => {
+      return {
+        id: node.id,
+        title: node.frontmatter.title,
+        slug: node.fields.slug,
+        clientName: node.frontmatter.clientName,
+        dueDate: node.frontmatter.dueDate,
+        status: node.frontmatter.status
+      };
+    });
+  }
 
   return (
     <StyledIndex>
-      <h1>Active Proyects ({data.allMarkdownRemark.totalCount})</h1>
+      <h1>Active Proyects ({totalCount})</h1>
       {projects.map(project => (
         <ProjectPreview key={project.title} {...project} />
       ))}
+
+      {!totalCount && <p>There are no active projects! 😭</p>}
     </StyledIndex>
   );
 };
