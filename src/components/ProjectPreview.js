@@ -48,6 +48,7 @@ const StyledProjectPreview = styled.div`
     flex-basis: 25%;
 
     @media (min-width: 769px) {
+      justify-content: flex-end;
       order: 3;
     }
 
