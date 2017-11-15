@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "date-fns": "^1.29.0",
     "gatsby": "^1.9.106",
     "gatsby-link": "^1.6.26",
     "gatsby-plugin-react-helmet": "^1.0.8",
