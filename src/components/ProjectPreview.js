@@ -7,15 +7,21 @@ import { parse, distanceInWordsToNow, isAfter } from "date-fns";
 
 const StyledProjectPreview = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border-bottom: 2px solid ${Colors.accent};
   border-radius: 5px;
   padding: 0.6rem;
   margin-bottom: 1rem;
   transition: all 0.6s;
+
   &:hover {
     border-bottom: 2px solid ${Colors.black};
   }
+
+  @media (min-width: 769px) {
+    flex-direction: row;
+  }
+
   h2,
   h3,
   p {
@@ -25,6 +31,7 @@ const StyledProjectPreview = styled.div`
   .projectMetadata {
     flex-grow: 1;
     flex-basis: 75%;
+    order: 2;
 
     a {
       color: ${Colors.black};
@@ -33,11 +40,19 @@ const StyledProjectPreview = styled.div`
   }
 
   .projectStatus {
-    flex-grow: 1;
+    order: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 0.25;
     flex-basis: 25%;
 
+    @media (min-width: 769px) {
+      order: 3;
+    }
+
     button {
-      float: right;
+      margin-bottom: 0.5rem;
       h5 {
         margin: 0;
       }
@@ -58,6 +73,12 @@ const StyledProjectPreview = styled.div`
       }
       &.development {
         background: ${Colors.red};
+      }
+      &.design {
+        background: ${Colors.yellow};
+      }
+      &.ux {
+        background: ${Colors.indigo};
       }
     }
   }
