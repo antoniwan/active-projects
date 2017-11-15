@@ -24,7 +24,10 @@ export default ({ data }) => {
         Created on{" "}
         <strong>
           {format(parse(post.frontmatter.date), `dddd, MMMM D, YYYY`)}
-        </strong>. You can find the project in{" "}
+        </strong>.
+      </p>
+      <p>
+        You can find the project in{" "}
         <a
           href={post.frontmatter.workflowUrl}
           rel="noopener noreferrer"
