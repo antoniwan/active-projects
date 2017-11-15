@@ -87,8 +87,13 @@ const StyledProjectPreview = styled.div`
 
 const ProjectPreview = props => {
   let pastDue = false;
+  let live = false;
   const dueDate = parse(props.dueDate);
   const todaysDate = new Date();
+
+  if (props.status === "live") {
+    live = true;
+  }
 
   if (isAfter(todaysDate, dueDate)) {
     pastDue = true;
@@ -101,20 +106,23 @@ const ProjectPreview = props => {
           <Link to={props.slug}>{props.title}</Link>
         </h2>
 
-        {!pastDue && (
-          <p>
-            Due in <strong>{distanceInWordsToNow(parse(props.dueDate))}</strong>{" "}
-            for <em>{props.clientName}</em>.
-          </p>
-        )}
+        {!pastDue &&
+          !live && (
+            <p>
+              Due in{" "}
+              <strong>{distanceInWordsToNow(parse(props.dueDate))}</strong> for{" "}
+              <em>{props.clientName}</em>.
+            </p>
+          )}
 
-        {pastDue && (
-          <p>
-            Past due by{" "}
-            <strong>{distanceInWordsToNow(parse(props.dueDate))}</strong> for{" "}
-            <em>{props.clientName}</em>.
-          </p>
-        )}
+        {pastDue &&
+          !live && (
+            <p>
+              Past due by{" "}
+              <strong>{distanceInWordsToNow(parse(props.dueDate))}</strong> for{" "}
+              <em>{props.clientName}</em>.
+            </p>
+          )}
       </div>
       <div className="projectStatus">
         <button className={props.status}>
