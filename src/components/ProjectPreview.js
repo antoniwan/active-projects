@@ -106,6 +106,11 @@ const ProjectPreview = props => {
           <Link to={props.slug}>{props.title}</Link>
         </h2>
 
+        {live && (
+          <p>
+            <em>{props.clientName}</em>
+          </p>
+        )}
         {!pastDue &&
           !live && (
             <p>
