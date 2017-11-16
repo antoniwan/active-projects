@@ -1,7 +1,7 @@
 ---
 title: "#DamnGenius Hacks WebApp"
 date: "November 16 2017"
-clientName: "Copa Airlines"
+clientName: "KFC"
 dueDate: "December 14 2017"
 workflowUrl: "http://m8.companyworkflow.com/#/dashboard/activity"
 status: "concept"
