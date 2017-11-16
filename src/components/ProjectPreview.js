@@ -81,6 +81,12 @@ const StyledProjectPreview = styled.div`
       &.ux {
         background: ${Colors.indigo};
       }
+      &.unknown {
+        background: ${Colors.purple};
+      }
+      &.concept {
+        background: ${Colors.orange};
+      }
     }
   }
 `;
