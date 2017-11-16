@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <StyledIndex>
-      <h1>Active Proyects ({totalCount})</h1>
+      <h1>Active Projects ({totalCount})</h1>
       {projects
         .sort((projectA, projectB) => {
           return parse(projectA.dueDate) - parse(projectB.dueDate);
