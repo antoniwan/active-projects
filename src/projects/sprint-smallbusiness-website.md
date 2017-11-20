@@ -2,7 +2,7 @@
 title: "Small Business Websites"
 date: "November 15, 2017"
 clientName: "Sprint"
-dueDate: "November 15 2017"
+dueDate: "December 15 2017"
 workflowUrl: "http://m8.companyworkflow.com/#messages/533575"
 status: "unknown"
 active: true
@@ -15,4 +15,4 @@ This is a A/B/C test. The intention is to use [DOMO](https://www.domo.com/) to r
 
 # Deadline
 
-**THE DEADLINE IS NOT CLEAR!!!**
+**WE WILL SET THIS DEADLINE!**
