@@ -18,6 +18,13 @@ module.exports = {
       }
     },
     `gatsby-plugin-styled-components`,
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-87699683-7",
+        anonymize: true
+      }
+    }
   ]
 };
