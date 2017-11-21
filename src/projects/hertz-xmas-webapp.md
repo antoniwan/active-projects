@@ -2,7 +2,7 @@
 title: "Christmas WebApp"
 date: "November 20 2017"
 clientName: "Hertz"
-dueDate: "December 14 2017"
+dueDate: "December 7 2017"
 workflowUrl: "http://m8.companyworkflow.com/#/tasks/9767216"
 status: "ux"
 active: true
@@ -23,7 +23,7 @@ The core functionalities are:
 - mobile first
 - upload or select your picture
 - add a frame to the picture
-- done, you can now:
+- after picture completion, you can now:
   - share
     - facebook
     - twitter
