@@ -4,7 +4,7 @@ date: "November 29, 2017"
 clientName: "Sprint"
 dueDate: "December 11, 2017"
 workflowUrl: "http://m8.companyworkflow.com/#messages/544140"
-status: "development"
+status: "live"
 active: true
 projectNumber: 1308
 ---

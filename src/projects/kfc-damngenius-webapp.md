@@ -4,7 +4,7 @@ date: "November 16 2017"
 clientName: "KFC"
 dueDate: "December 14 2017"
 workflowUrl: "http://m8.companyworkflow.com/#/messages/542901?scrollTo=1678222&"
-status: "design"
+status: "development"
 active: true
 projectNumber: 1025
 ---
