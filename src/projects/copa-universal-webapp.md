@@ -2,7 +2,7 @@
 title: "Universal Contest"
 date: "November 15 2017"
 clientName: "Copa Airlines"
-dueDate: "January 30 2018"
+dueDate: "January 19 2018"
 workflowUrl: "http://m8.companyworkflow.com/#messages/545801"
 status: "development"
 active: true
