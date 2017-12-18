@@ -5,7 +5,7 @@ clientName: "SPG"
 dueDate: "December 20 2017"
 workflowUrl: ""
 status: "complete"
-active: true
+active: false
 projectNumber: 6969
 ---
 
