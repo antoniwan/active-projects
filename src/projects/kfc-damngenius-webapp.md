@@ -14,13 +14,30 @@ projectNumber: 1025
 - genioskfc.com
 - kfcgenius.com
 
+# Repos
+
+- https://bitbucket.org/media8/kfc.1025_damngenius
+- https://bitbucket.org/media8/kfc.1025_damngenius_api
+
 
 # Mercados
 
+- Bahamas
+- Chile
+- Costa Rica
+- Ecuador
+- Jamaica
+- Mexico
+- Panama
+- Peru
+- Puerto Rico
+- Trinidad
 
 
 
 # Documentos de Referencies
+
+[Hack userflows dev. simplification can be found here!](https://docs.google.com/document/d/19yB1lofM5CEJ9LrQIl6JohT2xTkNyZtpZhdLgQZrJwA/edit#heading=h.1jz3qvpxxgu5)
 
 [Hack userflows can be found here!](https://docs.google.com/presentation/d/1KS7G07EdyGa6Y1q-fDZJkErnZXqlRB8__bvrtkUBfUU/edit#slide=id.p)
 
