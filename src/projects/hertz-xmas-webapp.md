@@ -4,10 +4,20 @@ date: "November 20 2017"
 clientName: "Hertz"
 dueDate: "December 7 2017"
 workflowUrl: "http://m8.companyworkflow.com/#/tasks/9767216"
-status: "live"
+status: "ended & live"
 active: true
 projectNumber: 1212
 ---
+
+# January 4, 2018 Update
+
+- Laura Mantovani is in the process of creating the final report.
+- Juan Diego Chavarria is pending to deliver us the cut-off date for this project to turn the project off.
+- I have turned-off the paid dynos, the project is now running under free dynos.
+- Thank you to everyone who contributed to this project!
+
+----
+
 
 Hey team!
 

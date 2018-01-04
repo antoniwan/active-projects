@@ -5,7 +5,7 @@ clientName: "Pernod Ricard"
 dueDate: "August 16, 2017"
 workflowUrl: ""
 status: "live"
-active: true
+active: false
 projectNumber: 1423
 ---
 

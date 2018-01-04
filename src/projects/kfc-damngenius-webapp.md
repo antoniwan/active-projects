@@ -4,10 +4,15 @@ date: "November 16 2017"
 clientName: "KFC"
 dueDate: "December 14 2017"
 workflowUrl: "http://m8.companyworkflow.com/#/messages/542901?scrollTo=1678222&"
-status: "development"
+status: "development & UNKNOWN"
 active: true
 projectNumber: 1025
 ---
+
+# January 4, 2018 Update
+
+- We are applying the finishing touches but are completely unaware of the client's status regarding this project and of any other milestones or deliveries.
+
 
 # Dominios
 
