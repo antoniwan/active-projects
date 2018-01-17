@@ -4,7 +4,7 @@ date: "November 15 2017"
 clientName: "Vallarta Adventures"
 dueDate: "January 31, 2018"
 workflowUrl: ""
-status: "development"
+status: "pending development"
 active: true
 projectNumber: 0
 ---

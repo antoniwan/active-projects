@@ -5,7 +5,7 @@ clientName: "Copa Airlines"
 dueDate: "November 7 2017"
 workflowUrl: ""
 status: "ended & live"
-active: true
+active: false
 projectNumber: 0
 ---
 
