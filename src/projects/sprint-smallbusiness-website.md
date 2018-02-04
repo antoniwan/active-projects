@@ -7,6 +7,7 @@ workflowUrl: "http://m8.companyworkflow.com/#messages/533575"
 status: "development"
 active: true
 projectNumber: 1288
+tags: ["development", "QA"]
 ---
 
 # What I got from Natalie

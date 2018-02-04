@@ -7,4 +7,5 @@ workflowUrl: ""
 status: "live"
 active: true
 projectNumber: 0
+tags: ["live"]
 ---

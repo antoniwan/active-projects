@@ -7,6 +7,7 @@ workflowUrl: "http://m8.companyworkflow.com/#messages/545801"
 status: "development"
 active: true
 projectNumber: 1003
+tags: ["development", "paused"]
 ---
 
 [Acá pueden ver el timeline del proyecto.](https://docs.google.com/spreadsheets/d/1G7G0gPeyXhnjzpByD7u5MqvzaprDEqO1byzb8FCoOi8/edit#gid=2002534962)

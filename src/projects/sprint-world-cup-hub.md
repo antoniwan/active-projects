@@ -7,6 +7,7 @@ workflowUrl: "http://m8.companyworkflow.com/#messages/539104"
 status: "live & development"
 active: true
 projectNumber: 1288
+tags: ["live", "development"]
 ---
 
 * This project will be divided in many phases!

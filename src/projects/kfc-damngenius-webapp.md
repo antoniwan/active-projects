@@ -7,38 +7,35 @@ workflowUrl: "http://m8.companyworkflow.com/#/messages/542901?scrollTo=1678222&"
 status: "development & UNKNOWN"
 active: true
 projectNumber: 1025
+tags: ["development", "unknown"]
 ---
 
 # January 4, 2018 Update
 
-- We are applying the finishing touches but are completely unaware of the client's status regarding this project and of any other milestones or deliveries.
-
+* We are applying the finishing touches but are completely unaware of the client's status regarding this project and of any other milestones or deliveries.
 
 # Dominios
 
-- genioskfc.com
-- kfcgenius.com
+* genioskfc.com
+* kfcgenius.com
 
 # Repos
 
-- https://bitbucket.org/media8/kfc.1025_damngenius
-- https://bitbucket.org/media8/kfc.1025_damngenius_api
-
+* https://bitbucket.org/media8/kfc.1025_damngenius
+* https://bitbucket.org/media8/kfc.1025_damngenius_api
 
 # Mercados
 
-- Bahamas
-- Chile
-- Costa Rica
-- Ecuador
-- Jamaica
-- Mexico
-- Panama
-- Peru
-- Puerto Rico
-- Trinidad
-
-
+* Bahamas
+* Chile
+* Costa Rica
+* Ecuador
+* Jamaica
+* Mexico
+* Panama
+* Peru
+* Puerto Rico
+* Trinidad
 
 # Documentos de Referencies
 
