@@ -54,17 +54,20 @@ const StyledProjectPreview = styled.div`
 
     button {
       margin-bottom: 0.5rem;
-      h5 {
-        margin: 0;
-      }
-      padding: 0.5rem 2rem;
+      margin-left: 0.5rem;
+      padding: 0.4rem 1rem;
       border: none;
       background: ${Colors.blue};
       border-radius: 5px;
       text-transform: uppercase;
       color: white;
-      font-weight: bold;
+      font-weight: normal;
       letter-spacing: 1px;
+
+      h5 {
+        margin: 0;
+        font-size: 0.8rem;
+      }
 
       &.live {
         background: ${Colors.green};
@@ -80,6 +83,12 @@ const StyledProjectPreview = styled.div`
       }
       &.ux {
         background: ${Colors.indigo};
+      }
+      &.unknown {
+        background: ${Colors.purple};
+      }
+      &.concept {
+        background: ${Colors.orange};
       }
     }
   }
@@ -130,9 +139,14 @@ const ProjectPreview = props => {
           )}
       </div>
       <div className="projectStatus">
-        <button className={props.status}>
-          <h5>{props.status}</h5>
-        </button>
+        {props.tags &&
+          props.tags.sort().map(tag => {
+            return (
+              <button className={tag}>
+                <h5>{tag}</h5>
+              </button>
+            );
+          })}
       </div>
     </StyledProjectPreview>
   );

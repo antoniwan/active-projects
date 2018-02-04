@@ -8,7 +8,9 @@ const ThemeColors = {
   yellow: `#f9dc5c`,
   tan: `#d0cd94`,
   indigo: `#22007c`,
-  accent: `#f1faee`
+  accent: `#f1faee`,
+  purple: `#7371FC`,
+  orange: `#FE5F00`
 };
 
 const Theme = styled.div`
