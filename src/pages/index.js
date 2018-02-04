@@ -19,7 +19,8 @@ const IndexPage = ({ data }) => {
         slug: node.fields.slug,
         clientName: node.frontmatter.clientName,
         dueDate: node.frontmatter.dueDate,
-        status: node.frontmatter.status
+        status: node.frontmatter.status,
+        tags: node.frontmatter.tags
       };
     });
   }
@@ -47,6 +48,7 @@ export const query = graphql`
         node {
           frontmatter {
             title
+            tags
             status
             clientName
             dueDate
